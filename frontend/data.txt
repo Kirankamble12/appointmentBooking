@@ -1,0 +1,121 @@
+the data for login and all is bellow:
+Admin:[
+    {
+      image:"https://res.cloudinary.com/dwkvr0ntl/image/upload/v1745650979/zagkvqdqocge548o0ovg.jpg",
+      adminid:ADM02
+      name:"Jessy Vonton"
+      email:"jessy@gmail.com"
+      mob:9765432108
+      password:jessy@123
+    }
+    { 
+      image:"https://res.cloudinary.com/dwkvr0ntl/image/upload/v1745661313/lzzazayvmnbg33p2gj8a.jpg"  
+      adminid:ADM04
+      name:"Diya Mirza"
+      email:"diya@gmail.com"
+      mob:9654321085
+      password:diya@123
+    }
+]
+
+Teacher:[
+    {
+          image:"https://res.cloudinary.com/dwkvr0ntl/image/upload/v1745744158/osoudjxu7542upfdg8ek.jpg"
+          name:"Shruti Shah"
+          gender:"female"
+          dob:1991-12-03
+          qualification:"MSC,B.Ed"
+          department:"Science"
+          subject:"Biology"
+          email:"shruti@gmail.com"
+          mobile:9321654870
+          password:"shruti@123"
+
+    }
+    {
+        image:"https://res.cloudinary.com/dwkvr0ntl/image/upload/v1745945170/kdd5n2xwubri64exbcum.jpg"
+          name:"Nita Josh"
+          gender:"female"
+          dob:1992-04-05
+          qualification:"MSC,B.Ed"
+          department:"Science"
+          subject:"Zoology"
+          email:"nita@gmail.com"
+          mobile:9615487524
+          password:"nita@1234"
+    }
+    {
+        image:"https://res.cloudinary.com/dwkvr0ntl/image/upload/v1745985970/dpma8qrbxcbkqebhslrp.jpg"
+          name:"Nisha Roy"
+          gender:"female"
+          dob:1994-12-12
+          qualification:"MSC,B.Ed"
+          department:"Mathematics"
+          subject:"Trignometry"
+          email:"nish@gmail.com"
+          mobile:9632647564
+          password:"nisha@123"
+    }
+     {
+        image:"https://res.cloudinary.com/dwkvr0ntl/image/upload/v1747482389/fiuxgciy9qpwegzsuorn.jpg"
+          name:"Anita Sharma"
+          gender:"female"
+          dob:2025-02-01
+          qualification:"MSC,B.Ed"
+          department:"Science"
+          subject:"Physics"
+          email:"anita@gmail.com"
+          mobile:9815437956
+          password:"anita@1234"
+    }
+]
+Student:[
+    {
+        studentId:S1002
+        name:"Anshita Mehra"
+        gender:"Female"
+        dob:1999-12-05
+        department:"Mathematics"
+        year:"2nd Year"
+        email:"anshita@gmail.com"
+        password:"anshita@123"
+        profileImage:"https://res.cloudinary.com/dwkvr0ntl/image/upload/v1745820843/y2pqi3x6kldnmupaoqaa.jpg"
+
+    }
+    {
+        studentId:S1003
+        name:"Josh Moni"
+        gender:"Male"
+        dob:1995-05-05
+        department:"English"
+        year:"1st Year"
+        email:"josh@gmail.com"
+        password:"josh@1234"
+        profileImage:"https://res.cloudinary.com/dwkvr0ntl/image/upload/v1745827793/bl5bd6fzqrudoqtdhvv5.jpg"
+
+    }
+    {
+        studentId:S1007
+        name:"Joana Scott"
+        gender:"Female"
+        dob:1999-12-04
+        department:"Science"
+        year:"2nd Year"
+        email:"joana@gmail.com"
+        password:"joana@123"
+        profileImage:"https://res.cloudinary.com/dwkvr0ntl/image/upload/v1747227938/agkuuvyt3pxl3pdiacfz.jpg"
+
+    }
+    {
+        studentId:S1008
+        name:"Vishakha Patel"
+        gender:Female"
+        dob:1999-12-05
+        department:"Science"
+        year:"3rd Year"
+        email:"vishakha@gmail.com"
+        password:"vishakha@123"
+        profileImage:"https://res.cloudinary.com/dwkvr0ntl/image/upload/v1747482601/rrzu87jr092bwjwqgzui.jpg"
+
+    }
+]

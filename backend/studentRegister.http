@@ -1,0 +1,15 @@
+### Student Registration Request
+POST http://localhost:4000/api/student/student-register
+Content-Type: application/json
+
+{
+  "studentId": "S1001",
+  "name": "Shruti Shah",
+  "gender": "Female",
+  "dob": "2003-05-17",
+  "department": "English",
+  "year": "3rd Year",
+  "email": "shruti@gmail.com",
+  "password": "shruti@123",
+  "confirmPassword": "shruti@123"
+}

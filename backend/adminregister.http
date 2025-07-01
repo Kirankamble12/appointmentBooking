@@ -1,0 +1,12 @@
+### Add Admin (Without Image)
+POST http://localhost:4000/api/admin/add-admin
+Content-Type: application/json
+
+{
+    "adminid": "ADM23",
+    "name": "John Doeny",
+    "email": "admi@eample.com",
+    "mob": "9876573110",
+    "password": "SeurPass123",
+    "conpassword": "SeurPass123"
+}

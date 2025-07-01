@@ -1,0 +1,16 @@
+### Add Teacher Request
+POST http://localhost:4000/api/admin/add-teacher
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "gender": "Male",
+  "dob": "1985-07-15",
+  "qualification": "PhD in Mathematics",
+  "department": "Mathematics",
+  "subject": "Calculus",
+  "email": "john@example.com",
+  "mobile": "9876552210",
+  "password": "securepassword123",
+  "confirmPassword": "securepassword123"
+}
