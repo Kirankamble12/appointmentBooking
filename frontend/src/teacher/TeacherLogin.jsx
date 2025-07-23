@@ -95,7 +95,7 @@ export const TeacherLogin = () => {
       {/* ✅ Additional Links */}
       <div className="mt-4 text-center text-gray-600">
         <p>Don't have an account? <Link to="/teacher-register" className="text-violet-700 font-bold hover:underline">Register here</Link></p>
-        <p><Link to="/forgot-password" className="text-violet-700 font-bold hover:underline">Forgot Password?</Link></p>
+        <p><Link to="/forgot-pass" className="text-violet-700 font-bold hover:underline">Forgot Password?</Link></p>
       </div>
     </div>
   );

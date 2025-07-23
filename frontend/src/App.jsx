@@ -28,7 +28,7 @@ import { StudentProfile } from "./Student/StudentProfile";
 import MyAppointments from "./Student/MyAppointments";
 import { ViewAllAppointment } from "./teacher/ViewAllAppointment";
 import { TeacherProfile } from "./teacher/TeacherProfile";
-
+import  ForgotPass from "./teacher/ForgotPass";
 
 
 
@@ -61,6 +61,7 @@ const App = () => {
         <Route path="/view-messages/:teacherEmail" element={<ViewMessages />} /> 
         <Route path="/view-appontment" element={<ViewAllAppointment/>}/> 
         <Route path="/teacher-profile" element={<TeacherProfile/>}/>
+        <Route path="/forgot-pass" element={<ForgotPass/>}/>
         
 
 

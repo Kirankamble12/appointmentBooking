@@ -4,6 +4,7 @@ import teacherModel from "../models/teacherModel.js";
 import studentModel from "../models/studentModel.js";
 import dotenv from "dotenv";
 
+
 dotenv.config(); // ✅ Load environment variables
 
 const teacherLogin = async (req, res) => {
@@ -43,7 +44,28 @@ const teacherLogin = async (req, res) => {
     }
 };
 
+//for forget-password 
 
+const resetTeacherPassword = async (req, res) => {
+    const { email, newPassword } = req.body;
+    try {
+        const teacher = await teacherModel.findOne({ email });
+        if (!teacher) {
+            return res.status(404).json({ success: false, message: "Teacher not found" })
+        }
+
+        //hash new password
+        const hashedPassword = await bcrypt.hash(newPassword, 10);
+        teacher.password = hashedPassword;
+        await teacher.save();
+
+        return res.status(200).json({ success: true, message: " The Password is reset" });
+    }
+    catch (error) {
+        console.error("error resetting Password", error.message)
+        return res.status(500).json({ success: false, message: "Internal server error" });
+    };
+}
 //for fetching teacher data
 const fetchTeacherData = async (req, res) => {
     try {
@@ -279,4 +301,4 @@ export const getConfirmedAppointments = async (req, res) => {
 
 
 
-export { teacherLogin, fetchTeacherData };
+export { teacherLogin, fetchTeacherData, resetTeacherPassword };

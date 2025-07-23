@@ -1,11 +1,12 @@
 import express from "express";
-import { teacherLogin, fetchTeacherData, getTeacherMessages, replyToStudentMessage, manageTeacherAppointments, scheduleAppointment, getConfirmedAppointments } from "../controllers/teacherController.js";
+import { teacherLogin, fetchTeacherData, resetTeacherPassword, getTeacherMessages, replyToStudentMessage, manageTeacherAppointments, scheduleAppointment, getConfirmedAppointments } from "../controllers/teacherController.js";
 
 
 const teacherRouter = express.Router();
 
 teacherRouter.post("/teacher-login", teacherLogin); // ✅ Login API
 teacherRouter.get("/teacher-profile", fetchTeacherData);
+teacherRouter.post("/forgot-pass", resetTeacherPassword);
 
 teacherRouter.get("/teacher/:email", getTeacherMessages);
 teacherRouter.post("/reply", replyToStudentMessage);
